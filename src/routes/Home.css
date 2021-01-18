@@ -1,0 +1,148 @@
+.header-main {
+  height: 86vh;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.7);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  border-bottom: 0.5px solid#797979;
+}
+
+.main__title {
+  color: #555555;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 36vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.businesses {
+  margin-top: 20vh;
+  display: flex;
+  width: 1000px;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.business {
+  width: 480px;
+  max-width: 50%;
+  height: 640px;
+  max-height: 65vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d2d2d2;
+  box-shadow: 3px 3px 10px #d2d2d2;
+  text-decoration: none;
+  color: #000000;
+}
+
+.business__img {
+  width: 100%;
+  height: auto;
+}
+
+.business__info {
+  background-color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+
+.business:hover .business__info {
+  transform: translateY(-80px);
+}
+
+.business__info-show {
+  margin: 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.business__title h3 {
+  font-weight: 300;
+}
+
+.business__title h2 {
+  font-weight: 600;
+}
+
+.business__info-show img {
+  padding-top: 4vh;
+}
+
+.business__info-hidden {
+  font-size: 24px;
+  margin-left: 4vh;
+}
+
+.business__info-hidden span {
+  margin-right: 30px;
+}
+
+.youth {
+  width: 100%;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.youth__title {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.youth__title h3 {
+  font-weight: 300;
+}
+
+.youth__title h2 {
+  font-weight: 600;
+}
+
+.youth__img {
+  max-width: 100%;
+}
+
+.together {
+  width: 100%;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.together__title {
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.together__title h3 {
+  font-weight: 300;
+}
+
+.together__title h2 {
+  font-weight: 600;
+}
+
+.together__img {
+  width: 100%;
+}
+
+.highlight-main {
+  box-shadow: inset 0 -32px 0 #a4cd53;
+}

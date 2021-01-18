@@ -1,0 +1,343 @@
+.header-contents {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 156vh;
+  padding-top: 5vh;
+  margin-bottom: 50px;
+}
+
+.character .title {
+  width: 1000px;
+  max-width: 100%;
+  padding-top: 10vh;
+  padding-bottom: 50px;
+}
+
+.character__video {
+  width: 1000px;
+  max-width: 100%;
+  margin-top: 80vh;
+  display: flex;
+
+  position: relative;
+}
+
+.character__video iframe {
+  width: 460px;
+  max-width: 50vw;
+  height: 340px;
+  max-height: 40vw;
+}
+
+.character__video img {
+  margin-left: 40px;
+}
+
+.sns__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sns__tmi-intro {
+  width: 1064px;
+  max-width: 100%;
+}
+
+.sns {
+  width: 1064px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 6px 15px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10vh;
+  background-color: #fff;
+}
+
+.youtube {
+  display: flex;
+  flex-direction: column;
+}
+
+.youtube-intro {
+  margin-top: 4vh;
+  margin-bottom: 3vh;
+  text-align: center;
+}
+
+.youtube-intro img {
+  animation: swing 3s ease-in-out infinite;
+  -webkit-transform-origin: top;
+}
+
+.youtube__profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: #2f363e;
+  margin-bottom: 40px;
+}
+
+.youtube__profile h3 {
+  margin-left: 15px;
+  margin-right: 60px;
+  font-weight: 600;
+}
+
+.youtube__btn {
+  width: 175px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.youtube__btn img {
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
+
+.youtube__video {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 20px 0;
+}
+
+.youtube__video iframe {
+  width: 460px;
+  max-width: 45vw;
+  height: 320px;
+  max-height: 30vw;
+}
+
+.youtube__text {
+  width: 460px;
+  max-width: 45vw;
+  margin-left: 4vw;
+  margin-right: 5px;
+  padding-bottom: 40px;
+}
+
+.youtube__text h3 {
+  font-weight: 600;
+}
+
+.youtube__text p {
+  line-height: 1.5;
+  margin-top: 14px;
+}
+
+.youtube-subscribe {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+  right: -40px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.insta {
+  width: 1000px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 12vh;
+}
+
+.insta-intro img {
+  animation: bounce-4 1s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
+}
+
+@keyframes bounce-4 {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-50px) rotate(-10deg);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0) rotate(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+.insta__profile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  max-width: 100%;
+  margin-top: 6vh;
+  margin-bottom: 3vh;
+  padding-bottom: 5vh;
+  text-decoration: none;
+  color: #2f363e;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.insta__profile-img {
+  margin-right: 5vw;
+  width: 150px;
+  height: 150px;
+}
+
+.insta__ID {
+  margin-bottom: 3vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.insta__ID h3 {
+  font-weight: 300;
+}
+
+.insta__btn img {
+  width: 185px;
+  height: auto;
+  padding-bottom: 10px;
+  margin-left: 5vw;
+
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
+
+.insta__link h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.insta__link p {
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.insta__link p:last-child {
+  color: #466fa3;
+  margin-top: 4vh;
+}
+
+.insta__check {
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+}
+
+.insta__imges {
+  width: 1000px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.insta__imges a {
+  text-decoration: none;
+  font-size: 16px;
+  width: 312px;
+  max-width: 29vw;
+  height: 312px;
+  max-height: 29vw;
+  margin: 0.5vw;
+}
+
+.insta__img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta__img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.insta__img-hover {
+  color: rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+.insta__imges a:hover img {
+  filter: brightness(60%);
+}
+
+.insta__imges a:hover .insta__img-hover {
+  color: white;
+}
+
+.sns-outtro {
+  margin: 10vh 0;
+}
+
+.sns-outtro img {
+  animation: jump 1s linear infinite;
+}
+
+@keyframes jump {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-40px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
